@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #424242;
+  background: #f0ffff;
+}
+
+.container {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* D3 Generated */
+
+#loading{
+  padding-left: 48px;
+  font-size: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#options label{
+  float:left;
+  padding: 8px 8px;
+  font-size: 14px;
+}
+
+#options button{
+  float:left;
+  padding: 5px 8px;
+  font-size: 14px;
+  width: 50px;
+  margin-top: 7px;
+  border: solid #a6a6a6 1px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  background-color: #fff;
+  font-weight: 300;
+}
+
+#options label:first-child{
+  padding-left: 48px;
+}
+
+.select-style {
+  color: #424242;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 3px;
+  overflow: ellipsis;
+  background-color: #fff;
+  background: #fff;
+  position: relative; 
+}
+
+.select-style:after {
+  top: 50%;
+  left: 85%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-top-color: #000000;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100; 
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+}
+
+/* D3 Charts */
+
+.tick line{
+  visibility:hidden;
+}
+
+.localText{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title{
+  display: flex;
+  padding: 16px 48px;
+}
+
+.title svg {
+  padding: 5px 0 0 12px;;
+}
+
+.arcText{
+	font-size: 24px;
+	font-weight: 700;
+  fill: #424242;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.local {
+  fill: #708EA4;
+}
+
+.global {
+  fill: #e91e63;
+}
+
+.cb-dark {
+  fill: #8856a7;
+}
+
+.cb-light {
+  fill: #9ebcda;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  padding: 4px;
+  font: 14px sans-serif;
+  background: white;
+  border: 0px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
